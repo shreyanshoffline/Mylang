@@ -18,7 +18,7 @@ value can be either string, int, float, bool, or nil
 string can be expressed with -str after the variable
 bool is interprated as truth or false which includes nil with the -bool tag
 
-nil = false
+nil = NULL pointer
 0 - false
 1 - true
 
