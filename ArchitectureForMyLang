@@ -5,7 +5,8 @@ equal sign(=) = translation with mylang on right and old lang on left in python 
 
 }
 
-import or #include = add <module>
+import module = add <module>
+include file  = add "file" 
 
 print() or printf() = write: <text or variable or data>
 input() or scanf() = get: 
@@ -27,6 +28,7 @@ if ___ :        = if ___ is true
 
 elif _____ : = 
 
+INDENTATION IS NECISSARY
 
 # single line comment
 " " = multi line comment
@@ -36,7 +38,8 @@ def _____ take _____ , _______ , _______
 
 return ____, _____, and ______
 
-for 10 times
+for <incremental var> times 10:
+    ________
 
 
 The MyLang Language Architecture
@@ -91,7 +94,7 @@ not / !	    = not
 Python / C Standard	MyLang Translation (=)
 
 defining:
-def <name>(<param>) -> <return type>:	 = def <name> take <type> <input>, <type> <input>, <type> <input>
+def <name>(<param>) -> <return type>:
 
 if <return type> = void then theres no type
 
@@ -99,7 +102,7 @@ returning:
 return <x>	(x is of type <return type>)
 
 calling:
-return_var = func(arg1, arg2, ...)
+<outvar> <name> take <input>, <input>, <input>
 
 7. String Power Tools (Custom for MyLang) -----------------------------------------------------------
 
