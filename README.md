@@ -1,2 +1,2 @@
 # Mylang
-3 coding prodigies collaging to create their own revolutionary language
+An hobby interpreted language made in C for basic projects 
