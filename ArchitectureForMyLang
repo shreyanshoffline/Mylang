@@ -89,8 +89,18 @@ not / !	    = not
 6. Functions -----------------------------------------------------------
 
 Python / C Standard	MyLang Translation (=)
-def <name>(<args>):	            = def <name> take <input>, <input>, <input>
-return <x>	
+
+defining:
+def <name>(<param>) -> <return type>:	 = def <name> take <type> <input>, <type> <input>, <type> <input>
+
+if <return type> = void then theres no type
+
+returning:
+return <x>	(x is of type <return type>)
+
+calling:
+return_var = func(arg1, arg2, ...)
+
 7. String Power Tools (Custom for MyLang) -----------------------------------------------------------
 
 Python / C Logic	MyLang Translation (=)
