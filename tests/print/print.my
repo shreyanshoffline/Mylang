@@ -1,0 +1,2 @@
+# should write "Hello, World!" to the screen
+write: "Hello, World!"
