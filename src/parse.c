@@ -78,7 +78,13 @@ int parse_line(char* line, int line_number) {
     fprintf(stderr, "Syntax error: Something is malformed on line %d.\n", line_number);
     return -1;
   }
-  printf("Opcode: %s\n", trim_leading_spaces(opcode));
-  printf("Input: %s\n", trim_leading_spaces(parameter)); 
+  char *trimmedop = trim_leading_spaces(opcode);
+  char *trimmedin = trim_leading_spaces(parameter);
+  printf("Opcode: %s\n", trimmedop);
+  printf("Input: %s\n", trimmedin); 
+
+
+  free(trimmedop);
+  free(trimmedin);
   return 0;
 }
