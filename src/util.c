@@ -5,7 +5,7 @@ char* trim_leading_spaces(char* str) {
         i++;
     }
     const int newlen = strlen(str) - i;
-    char dest[newlen];
+    char dest[newlen+1];
     strncpy(dest, str + i, newlen);
     dest[newlen+1] ='\0';
     return strdup(dest);
